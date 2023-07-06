@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "fs": "^0.0.1-security"
+  },
+  "name": "iris-assistant-template",
+  "version": "1.0.0",
+  "description": "My bot is an all-in-one Discord bot designed to enhance your server experience. With a wide range of commands and useful features, it aims to provide a seamless and enjoyable Discord environment.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "ping"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevanshxDop/Iris-Assistant-Template.git"
+  },
+  "author": "NotDevansh#6554 [Discord id]",
+  "license": "See in LICENSE file",
+  "bugs": {
+    "url": "https://github.com/DevanshxDop/Iris-Assistant-Template/issues"
+  },
+  "homepage": "https://github.com/DevanshxDop/Iris-Assistant-Template#readme"
+}
