@@ -1,6 +1,6 @@
 const { Client, Collection, Intents, EmbedBuilder, GatewayIntentBits, ActivityType,Partials } = require('discord.js');
 const fs = require('fs');
-const {token,clientId} = require("./config.json")
+const {token, clientId} = require("./config.json")
 
 const client = new Client({
     intents: [
@@ -31,7 +31,6 @@ async function registerSlashCommands() {
   try {
     console.log('Started refreshing application (/) commands.');
 
-    const clientId = clientId;
 
 	  
     await client.application.commands.set(commands);
