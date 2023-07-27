@@ -1,7 +1,7 @@
 const { Client, Collection, Intents, EmbedBuilder, GatewayIntentBits, ActivityType,Partials } = require('discord.js');
 const fs = require('fs');
 const {token, clientId} = require("./config.json")
-
+const mongoose = require("mongoose")
 const client = new Client({
     intents: [
       GatewayIntentBits.Guilds,
