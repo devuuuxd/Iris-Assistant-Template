@@ -99,4 +99,4 @@ client.on('interactionCreate', async interaction => {
     console.error('Error while executing command:', error);
   }
 });
-client.login("MTIwNjM0MTA3MzMyNTEyOTgwOQ.GmdUqp.rLGl1v7WeYKHvwnxxqVqJUQ6ByjbIymXwO7Gt4")
+client.login(token)
