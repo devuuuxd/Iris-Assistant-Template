@@ -99,4 +99,4 @@ client.on('interactionCreate', async interaction => {
     console.error('Error while executing command:', error);
   }
 });
-client.login(token);
+client.login(token || process.env.token)
