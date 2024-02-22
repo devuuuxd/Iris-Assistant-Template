@@ -2,7 +2,7 @@ const { Client, Collection, Intents, EmbedBuilder, GatewayIntentBits, ActivityTy
 const fs = require('fs');
 const keep_alive = require("./keep_alive.js")
 const {token, mongo ,clientId} = require("./config.json")
-const mongoose = require("mongoose")
+//const mongoose = require("mongoose")
 const client = new Client({
     intents: [
       GatewayIntentBits.Guilds,
