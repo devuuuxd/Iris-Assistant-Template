@@ -1,5 +1,6 @@
 const { Client, Collection, Intents, EmbedBuilder, GatewayIntentBits, ActivityType,Partials } = require('discord.js');
 const fs = require('fs');
+const keep_alive = require("./keep_alive.js")
 const {token, mongo ,clientId} = require("./config.json")
 const mongoose = require("mongoose")
 const client = new Client({
